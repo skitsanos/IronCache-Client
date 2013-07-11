@@ -6,7 +6,7 @@ IronCache API Client for ActionScript 3.0
 Create IronCache client instance
 
 ```
-private var caches:IronCache = new IronCache('51de78455de93824ff00000c', 'C5HhOgghkAaxRp-U_bgpKRNM3Ko');
+private var caches:IronCache = new IronCache('project_id', 'token');
 ```
 
 List caches
