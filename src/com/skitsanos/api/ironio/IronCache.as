@@ -34,7 +34,6 @@ package com.skitsanos.api.ironio
 		 */
 		private function getUrl():String
 		{
-			//http://cache-aws-us-east-1.iron.io/1/projects/51de78455de93824ff00000c/caches?oauth=C5HhOgghkAaxRp-U_bgpKRNM3Ko
 			var url:String = 'http://cache-aws-us-east-1.iron.io/1/projects/' + projectId + '/caches';
 			return url;
 		}
